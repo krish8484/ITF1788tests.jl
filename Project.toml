@@ -1,0 +1,13 @@
+name = "ITF1788tests"
+uuid = "f377abaf-66d8-4ad9-806a-bddda23bb479"
+authors = ["Krish Agarwal"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
