@@ -1,5 +1,6 @@
 module ITF1788tests
 
-greet() = print("Hello World!")
+include("add.jl")
+export regenerate_test
 
 end # module
